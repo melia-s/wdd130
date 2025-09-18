@@ -1,5 +1,11 @@
+:root {
+    --main-color: darkblue;
+    --border-typical: 1px solid darkblue;
+    --typical-box-shadow: 0 0 30px gray;
+}
+
 nav {
-    background-color: darkblue;
+    background-color: var(--main-color);
     padding: 10px;
 }
 
@@ -20,9 +26,9 @@ h1 {
 main img {
     width: 150px;
     height: auto;
-    border: 1px solid darkblue;
+    border: var(--border-typical);
     padding: 2px;
-    box-shadow: 0 0 30px gray;
+    box-shadow: var(--typical-box-shadow);
 }
 
 p {
@@ -42,8 +48,8 @@ aside {
 aside img {
     width: 200px;
     height: auto;
-    border: 1px solid darkblue;
-    box-shadow: 0 0 30px gray;
+    border: var(--border-typical);
+    box-shadow: var(--typical-box-shadow);
 
 }
 
