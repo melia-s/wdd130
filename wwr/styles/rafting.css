@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: seagreen; 
+    --secondary-color: rgb(191, 227, 207); /* light aqua */
+    --accent1-color: rgb(6, 66, 115, 0.7); /* deep sea blue */
+    --accent2-color: rgb(242, 220, 98);
+    --heading-font: "Times New Roman", "Georgia", serif;
+    --body-font: Arial, Helvetica, sans-serif;
+}
+
+body {
+    font-family: var(--body-font);
+    color: var(--accent1-color)
+}
+
+header, main, footer {
+    width: 840px;
+    margin: 0 auto;
+}
+
+header img {
+    width: 85px;
+    display:inline;
+}
+
+/* nav {
+    background-color: var(--accent2-color);
+    width: 100%;
+} */
+
+nav ul li{
+    display: inline-block;
+    padding: 10px;
+    /* background-color: var(--accent2-color); */
+}
+
+h1, h2 {
+    font-family: var(--heading-font);
+    color: var(--primary-color)
+}
+
+h1 {
+    position: absolute;
+    top: 20px;
+    width: 100%;
+    padding: 16px;
+    text-align: center;
+    /* opacity: 0.7; */
+    background-color: var(--accent1-color);
+    /* color: antiquewhite; */
+    color: var(--secondary-color);
+}
+
+article {
+    position: absolute;
+    bottom: 5px;
+    width: 90%;
+    left: 1.5rem;
+    padding: 10px;
+    text-align: left;
+    background-color: var(--accent1-color);
+    /* color: antiquewhite; */
+    color: var(--secondary-color);
+}
+
+article p{
+    margin:8px;
+}
+
+nav, p, section {
+    margin: 16px;
+    padding:8px;
+}
+
+h2{
+    text-align: center;
+    background-color: var(--secondary-color);
+    padding: 1rem;
+}
+
+footer{
+    text-align: center;
+}  
+
+/* Class Selectors */
+.socialmedia a{
+    text-decoration: none;
+}
+
+.socialmedia img{
+    display: inline-block;
+    /* position: fixed; */
+    width:35px;
+}
+
+.hero {
+    position: relative;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.hero article img {
+    float: right;
+    width: 125px;
+    height: auto;
+    /* padding: 10px; */
+    opacity: 1.0;
+    border: 1px solid var(--accent1-color);
+    box-shadow: 0 0 20px #021a2d;
+}
+
+
+/* #67c1ca;  soft sea blue */
+/* #7fcdff; light aqua */
+/* #064273; deep sea blue */
+/* #76b6c4; soft teal */
+/* #0000ff; blue */
+/* Basic Blue: lightblue, skyblue, deepskyblue, dodgerblue */
+/* Dark blue: navy, midnightblue, darkblue, royalblue */
+/* Soft-Muted Blue: powderblue, steelblue, cornflowerblue, aliceblue */
+/* Green: Forestgreen, limegreen, olivegreen, seagreen, springgreen, teal, chartreuse, darkgreen, palegreen, mint green */
