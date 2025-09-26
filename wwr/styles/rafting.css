@@ -26,6 +26,8 @@ header, main, footer {
 header img {
     width: 85px;
     display:inline;
+    margin: 0px;
+    /* border: 1px solid rgb(6, 66, 115) */
 }
 
 /* nav {
