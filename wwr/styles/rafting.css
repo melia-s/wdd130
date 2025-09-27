@@ -5,10 +5,10 @@
 }
 
 :root {
-    --primary-color: seagreen; 
+    --primary-color: rgb(46, 122, 87); 
     --secondary-color: rgb(191, 227, 207); /* light aqua */
     --accent1-color: rgb(6, 66, 115, 0.7); /* deep sea blue */
-    --accent2-color: rgb(242, 220, 98);
+    --accent2-color: rgb(255, 250, 205);
     --heading-font: "Times New Roman", "Georgia", serif;
     --body-font: Arial, Helvetica, sans-serif;
 }
