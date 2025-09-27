@@ -1,8 +1,8 @@
-* {
+/* * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
+} */
 
 :root {
     --primary-color: rgb(46, 122, 87); 
@@ -11,6 +11,12 @@
     --accent2-color: rgb(255, 250, 205);
     --heading-font: "Times New Roman", "Georgia", serif;
     --body-font: Arial, Helvetica, sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -30,10 +36,10 @@ header img {
     /* border: 1px solid rgb(6, 66, 115) */
 }
 
-/* nav {
+nav {
     background-color: var(--accent2-color);
     width: 100%;
-} */
+}
 
 nav ul li{
     display: inline-block;
@@ -81,7 +87,7 @@ nav, p, section {
 
 h2{
     text-align: center;
-    background-color: var(--secondary-color);
+    background-color: var(--accent2-color);
     padding: 1rem;
 }
 
