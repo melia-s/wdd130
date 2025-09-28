@@ -5,9 +5,11 @@
 } */
 
 :root {
-    --primary-color: rgb(46, 122, 87); 
+    /* --primary-color: rgb(46, 122, 87);  */
+    --primary-color: rgb(53, 105, 81);
     --secondary-color: rgb(191, 227, 207); /* light aqua */
-    --accent1-color: rgb(6, 66, 115, 0.7); /* deep sea blue */
+    --accent1-color-bk: rgb(6, 66, 115, 0.7); /* deep sea blue */
+    --accent1-color: rgb(6, 66, 115);
     --accent2-color: rgb(255, 250, 205);
     --heading-font: "Times New Roman", "Georgia", serif;
     --body-font: Arial, Helvetica, sans-serif;
@@ -66,7 +68,7 @@ header img {
 
 h1, h2 {
     font-family: var(--heading-font);
-    color: var(--primary-color)
+    color: var(--accent1-color)
 }
 
 h1 {
@@ -76,7 +78,7 @@ h1 {
     padding: 16px;
     text-align: center;
     /* opacity: 0.7; */
-    background-color: var(--accent1-color);
+    background-color: var(--accent1-color-bk);
     /* color: antiquewhite; */
     color: var(--secondary-color);
 }
@@ -88,7 +90,7 @@ article {
     left: 1.5rem;
     padding: 10px;
     text-align: left;
-    background-color: var(--accent1-color);
+    background-color: var(--accent1-color-bk);
     /* color: antiquewhite; */
     color: var(--secondary-color);
 }
@@ -98,18 +100,21 @@ article p{
 }
 
 nav, p, section {
-    margin: 16px;
-    padding:8px;
+    margin-top: 16px;
+    padding-bottom:8px;
 }
 
 h2{
     text-align: center;
-    background-color: var(--accent2-color);
+    /* background-color: var(--accent2-color); */
     padding: 1rem;
 }
 
 footer{
     text-align: center;
+    padding: 1rem;
+    background-color: var(--accent2-color);
+    color: var(--primary-color)
 }  
 
 /* Class Selectors */
@@ -127,9 +132,27 @@ footer{
 }
 
 .history {
-    display: flex;
-    flex-wrap: wrap;
+    width: 840px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     justify-content: space-around;
+    background-color: var(--secondary-color);
+}
+
+.history h2{
+    grid-column: span 3;
+    padding-bottom: 0px;
+}
+
+.history img {
+    width: 250px;
+    padding: 1rem;
+    place-self: center;
+}
+
+.history p {
+    padding: 1rem;
+    text-align: center;
 }
 
 .socialmedia a{
