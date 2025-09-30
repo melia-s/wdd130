@@ -124,11 +124,11 @@ footer{
     flex-direction: row;
     list-style: none;
     align-items: center;
+}
     
-    li {
-        flex: 1 1 auto;
-        /* justify-content: flex-end; */
-    }
+.navigation li {
+    flex: 1 1 auto;
+    /* justify-content: flex-end; */
 }
 
 .history {
@@ -137,23 +137,24 @@ footer{
     grid-template-columns: repeat(3, 1fr);
     justify-content: space-around;
     background-color: var(--secondary-color);
-
-    h2 {
-        grid-column: span 3;
-        padding-bottom: 0px;
-    }
-
-    img {
-        width: 250px;
-        padding: 1rem;
-        place-self: center;
-    }
-
-    p {
-        padding: 1rem;
-        text-align: center;
-    }
 }
+
+.history h2 {
+    grid-column: span 3;
+    padding-bottom: 0px;
+}
+
+.history img {
+    width: 250px;
+    padding: 1rem;
+    place-self: center;
+}
+
+.history p {
+    padding: 1rem;
+    text-align: center;
+}
+
 
 .trips {
     display: grid;
@@ -161,21 +162,24 @@ footer{
     padding-left: 15px;
     width: 840px;
     background-color: var(--secondary-color);
+}
     
-    h2 {
-        grid-column: span 5;
-    }
-    span{
-        display: inline-block;
-    }
-    img{
-        width: 150px;
-    }
-    figcaption {
-        text-align: center;
-        padding-top: 5px;
-        padding-bottom: 5px;
-    }
+.trips h2 {
+    grid-column: span 5;
+}
+
+.trips span{
+    display: inline-block;
+}
+
+.trips img{
+    width: 150px;
+}
+
+.trips figcaption {
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 .site-footer{
