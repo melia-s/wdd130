@@ -71,18 +71,6 @@ h1, h2 {
     color: var(--accent1-color)
 }
 
-h1 {
-    position: absolute;
-    bottom: 350px;
-    width: 100%;
-    padding: 20px;
-    text-align: center;
-    /* opacity: 0.7; */
-    background-color: var(--accent1-color-bk);
-    /* color: antiquewhite; */
-    color: var(--secondary-color);
-}
-
 article {
     position: absolute;
     bottom: 5px;
@@ -164,6 +152,18 @@ button:hover {
     
 .navigation li {
     flex: 1 1 auto;
+}
+
+.head h1 {
+    position: absolute;
+    bottom: 350px;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    /* opacity: 0.7; */
+    background-color: var(--accent1-color-bk);
+    /* color: antiquewhite; */
+    color: var(--secondary-color);
 }
 
 .history {
@@ -260,7 +260,7 @@ button:hover {
     background-color: var(--accent1-color);
 }
 
-.info h2 {
+.info h1 {
     grid-column: span 3;
     /* color: var(--secondary-color); */
     /* width: 840px; */
@@ -271,6 +271,7 @@ button:hover {
     font-size: xx-large;
     font-weight: 200;
     color: var(--secondary-color);
+    text-align: center;
 }
 
 /* .info {
