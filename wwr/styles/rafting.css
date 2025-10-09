@@ -122,6 +122,25 @@ textarea {
     margin-left: 30px;
 }
 
+aside {
+    background-color: var(--accent2-color);
+    width: 48%;
+    border: 2px solid var(--primary-color);
+    border-radius: .25rem;
+}
+
+aside p {
+    text-align: center;
+    margin: 3px;
+}
+
+aside img {
+    width: 48%;
+    padding-left: 5px;
+    padding-bottom: 3px;
+    margin-left: 2.5px;
+}
+
 button {
     width:90%;
     border: none;
@@ -137,8 +156,8 @@ button {
 }
 
 button:hover {
-    background-color: var(--secondary-color);
-    color:var(--accent1-color)
+    background-color: var(--accent1-color);
+    color:var(--secondary-color);
 }
 
 /* Class Selectors */
@@ -252,6 +271,69 @@ button:hover {
     box-shadow: 0 0 20px #021a2d;
 }
 
+.f-2 {
+    margin: 0;
+    margin-right: 0;
+    border: 2px solid var(--primary-color);
+    border-radius: .25rem;
+}
+
+.news {
+    /* border: 2px solid var(--primary-color); */
+    border-radius: .15rem;
+    border-bottom: 1px solid var(--primary-color);
+    display: grid;
+    height: 80px;
+    grid-template-columns: 1fr;
+    grid-template-rows: 30% 20%;
+}
+
+.news h2 {
+    margin: 0;
+    padding:5px;
+    padding-bottom: 0;
+}
+
+.discount {
+    padding-top: 0;
+    padding-bottom: 3px;
+    text-align: center;
+    border:none;
+    font-size: small;
+    color: var(--primary-color);
+}
+
+.alert {
+    margin-left: 15px;
+    margin-bottom: 5px;
+    grid-template-columns: 1fr;
+    text-align: center;
+    font-size: 0.85rem;
+}
+
+.book {
+    background-color: var(--secondary-color);
+    display:grid;
+    grid-template-columns: 210px 2fr;
+}
+
+.book h2 {
+    grid-column: span 3;
+    padding-bottom: 0;
+}
+
+.book img {
+    width: 200px;
+    margin: 10px;
+}
+
+.book p {
+    margin: 10px;
+    margin-bottom: 0;
+    padding-top: 10px;
+    /* text-align: center; */
+}
+
 .info {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -313,7 +395,8 @@ button:hover {
 }
 
 input[type="text"],
-input[type="email"] {
+input[type="email"], 
+input[type="number"] {
     border-radius: .25rem;
     border: 1px solid var(--accent1-color-bk);
     padding: .25rem;
