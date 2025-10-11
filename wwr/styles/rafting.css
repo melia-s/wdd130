@@ -314,7 +314,7 @@ button:hover {
 .book {
     background-color: var(--secondary-color);
     display:grid;
-    grid-template-columns: 210px 2fr;
+    grid-template-columns: 210px 1fr;
 }
 
 .book h2 {
@@ -331,7 +331,7 @@ button:hover {
     margin: 10px;
     margin-bottom: 0;
     padding-top: 10px;
-    /* text-align: center; */
+    text-align: center;
 }
 
 .info {
